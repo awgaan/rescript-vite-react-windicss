@@ -1,4 +1,5 @@
 import './style.css'
+import 'virtual:windi.css'
 
 document.querySelector('#app').innerHTML = `
   <h1>Hello Vite!</h1>
