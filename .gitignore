@@ -3,3 +3,8 @@ node_modules
 dist
 dist-ssr
 *.local
+
+# rescript
+.merlin
+/lib/
+.bsb.lock
