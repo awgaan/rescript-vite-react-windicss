@@ -1,4 +1,3 @@
-import './style.css'
 import 'virtual:windi.css'
 
 document.querySelector('#app').innerHTML = `
