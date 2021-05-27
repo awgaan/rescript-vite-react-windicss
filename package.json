@@ -7,16 +7,19 @@
     "build": "vite build",
     "serve": "vite preview",
     "re:build": "bsb -make-world -clean-world",
-    "re:watch": "bsb -make-world -clean-world -w"
+    "re:watch": "bsb -make-world -clean-world -w",
+    "icon:gen": "react-from-svg src/img/ src/img/components --with-web-for-rescript"
   },
   "devDependencies": {
     "bs-platform": "^9.0.2",
+    "react-from-svg": "^5.0.2",
     "vite": "^2.1.0",
     "vite-plugin-windicss": "^0.9.7"
   },
   "dependencies": {
     "@rescript/react": "^0.10.1",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "rescript-classnames": "^6.0.0"
   }
 }

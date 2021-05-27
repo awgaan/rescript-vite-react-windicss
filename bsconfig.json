@@ -1,6 +1,6 @@
 {
   "name": "rescript-vite-react-windicss",
-  "bsc-flags": ["-bs-super-errors"],
+  "bsc-flags": ["-bs-super-errors", "-open Cx"],
   "sources": [
     {
       "dir": "src",
@@ -16,7 +16,10 @@
   "suffix": ".bs.js",
   "namespace": true,
   "reason": { "react-jsx": 3 },
-  "bs-dependencies": ["@rescript/react"],
+  "bs-dependencies": [
+      "@rescript/react",
+      "rescript-classnames"
+  ],
   "ppx-flags": [],
   "refmt": 3
 }

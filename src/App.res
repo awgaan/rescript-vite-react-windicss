@@ -1,5 +1,8 @@
+@module external styles: {..} = "./App.module.css"
+
 @react.component
 let make = () => {
-  let message = React.string("Hei, verden!")
-  <div className="bg-gray-500 p-8 text-gray-100 text-2xl text-center"> message </div>
+  <div className="bg-gradient-to-b from-hex-2d3436 to-hex-23272a w-full h-full p-16">
+    <Header /> <Categories /> <Navbar />
+  </div>
 }
